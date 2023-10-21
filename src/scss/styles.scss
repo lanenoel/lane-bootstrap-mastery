@@ -16,7 +16,8 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
-
+$primary: red;
+$body-bg: #ededed;
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -33,4 +34,16 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  header {
+    background: #ffffff url("../img/pirate-photos/kraken02.jpg") no-repeat center;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  footer {
+    background-color: $primary;
+    text-align: center;
   }
