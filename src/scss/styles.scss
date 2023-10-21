@@ -16,7 +16,7 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
-$primary: red;
+$primary: green;
 $body-bg: #ededed;
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -37,13 +37,37 @@ $body-bg: #ededed;
   }
 
   header {
-    background: #ffffff url("../img/pirate-photos/kraken02.jpg") no-repeat center;
+    background: #ffffff url("../img/pirate-photos/pirate-ship.jpg") no-repeat center;
     background-size: cover;
     font-family: 'Oswald', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
   }
 
   footer {
     background-color: $primary;
     text-align: center;
+  }
+
+  #sally {
+    background: #ffffff url("../img/pirate-photos/kraken01.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  #susie {
+    background: #ffffff url("../img/pirate-photos/kraken02.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  #sharon {
+    background: #ffffff url("../img/pirate-photos/kraken03.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .span {
+    font-style: italic;
+  }
+
+  #carouselExampleCaptions {
+    object-position: center;
   }
